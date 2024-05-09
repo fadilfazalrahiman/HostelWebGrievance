@@ -1,0 +1,68 @@
+.complaint-list {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark gray text color */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #007bff; /* Blue heading color */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333; /* Dark gray text color for table headers */
+}
+
+tr {
+    background-color: #fff; /* White for all rows */
+}
+
+tr:hover {
+    background-color: #f9f9f9; /* Light gray on hover */
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #007bff; /* Blue when checked */
+    color: #fff; /* White text color when checked */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue button color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.submit-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
